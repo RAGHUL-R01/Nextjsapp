@@ -1,0 +1,29 @@
+@use '/Styles/index.scss'; //Importing Index.scss file here 
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    padding: 5em 3em;
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    // background-color: red;
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.CA1 {
+    color: white;
+    width: 35%;
+    padding: 1em;
+    background-color: rgb(25, 125, 82);
+    border-radius: 10px 0 0 10px;
+}
+.CA2{
+    background-color: white;
+    width: 65%;
+    border-radius:0 10px 10px 0;
+}
